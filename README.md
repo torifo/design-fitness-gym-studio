@@ -12,7 +12,8 @@
 
 ## Live
 
-- **Production:** [design.fitness-gym-studio.riumu.net](https://design.fitness-gym-studio.riumu.net)
+- **Production:** <https://design.fitness-gym-studio.riumu.net/>（HTTPS 強制 ON、Let's Encrypt 証明書 approved）
+- **Repo:** <https://github.com/torifo/design-fitness-gym-studio>
 - ホスティング: GitHub Pages（CNAME / .nojekyll 同梱）
 
 ---
