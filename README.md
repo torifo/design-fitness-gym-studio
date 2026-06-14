@@ -62,3 +62,19 @@
 - 架空ブランド。実在の事業者・施設とは一切無関係です。
 - 写真はすべて Unsplash の外部リンク。クレジット表記は Unsplash 利用規約に準拠。
 - デザイン学習・ポートフォリオ目的の制作物です。
+
+
+## Install as a skill / スキルとして導入
+
+This repo ships a cross-agent **`SKILL.md`** (open standard) usable by both Claude Code and Codex CLI as a design-reference skill. Link the repo into the agent's skills directory:
+
+このリポジトリは Claude Code / Codex CLI 共通の **`SKILL.md`**（オープン標準）を同梱し、デザイン参照スキルとして使えます。
+
+```bash
+# Claude Code
+ln -s "$(pwd)" ~/.claude/skills/design-fitness-gym-studio
+# Codex CLI
+ln -s "$(pwd)" ~/.codex/skills/design-fitness-gym-studio
+```
+
+Restart the agent; it is matched automatically by the skill's `description` (skill name: `design-fitness-gym-studio`). / エージェント再起動後、`description` に基づき自動マッチします。
